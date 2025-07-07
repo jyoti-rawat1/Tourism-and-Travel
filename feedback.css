@@ -1,0 +1,161 @@
+body{
+    margin:0px;
+    padding:0px;
+     background-image:url(images/paper.jpg);
+     background-size:cover;
+}
+
+
+
+
+nav{
+
+    width:100%;
+    height:60px;
+    border:3px;
+    border-color:white ;
+    border-style:solid;
+    background-color:skyblue;
+    box-sizing:border-box;
+    
+}
+#image{
+    width:100px;
+    height:60px;
+    background-color:skyblue;
+    border:2px;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    
+}
+#travel{
+    float:right;
+    font-size:40px;
+    color:white;
+    margin-bottom:5px; 
+    margin-top:0px;
+    margin-right:450px;
+    text-transform: uppercase;
+    letter-spacing:3px;
+    font-family:cursive;
+    
+}
+div{
+    box-sizing:border-box;
+}
+
+
+
+
+#menu{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:50px;
+    background-color:black;
+    margin:0px;
+    box-sizing:border-box;
+
+}
+#brand{
+    background-color:white;
+    text-align:center;
+    color:white;
+    font-size:30px;
+    font-family:sans-serif;
+    background-color:black;
+    font-style:bold;
+    margin-top:50px;
+    
+}
+a{
+    text-decoration:none;
+    color:white;
+    
+}
+#brand:hover{
+background-color:burlywood;
+border-radius:50px;
+transition:0.5s;
+}
+#brand:hover a{
+    color:red;
+    font-size:40px;
+    transition:1s;
+}
+.container{
+    width:600px;
+    margin:50px auto;
+    padding:20px;
+    background-color:aliceblue;
+    box-shadow:10px 10px 10px lightgreen rgba(0,0,0,0.1);
+    border-radius:8px;
+    
+}
+h1{
+    text-align:center;
+    color: #333;
+}
+p{
+    text-align:center;
+    color:#333;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+label{
+    margin-bottom:5px;
+    color:#333;
+    color:green;
+}
+input,textarea{
+    margin-bottom:20px;
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:4px;
+
+}
+button{
+    padding:10px;
+    background-color:#28a745;
+    color:#fff;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    
+}
+button:hover{
+    background-color: aquamarine;
+}
+#abc{
+    width:100%;
+    height:100px;
+    border:3px;
+    border-color:black ;
+    border-style:solid;
+    background-color:black;
+    box-sizing:border-box;
+
+ }
+ footer{
+    width:100%;
+    height:60px;
+    border:3px;
+    border-color:black;
+    border-style:solid;
+    background-color:black;
+    box-sizing:border-box;
+
+ }
+ #h2{
+    text-align:center;
+    color:white;
+ }
+
+.a{
+    text-align:center;
+    color:white;
+    
+}
